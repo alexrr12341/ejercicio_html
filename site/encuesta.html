@@ -86,37 +86,37 @@
               <div class="col-lg-8">
                 <div class="button-shadow bg-default py-5 px-3 round-large">
                   <h5 class="text-center">DANOS TU INFORMACIÓN</h5>
-                  <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="forms" method="post" action="http://www.gonzalonazareno.org/josedom/resultado.php">
+                  <form action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="post">
                     <div class="row row-20 align-items-end">
                       <div class="col-md-6">
                         <div class="form-wrap form-wrap-validation validation-with-outside-label">
                           <label class="form-label-outside" for="forms-name">Nombre</label>
-                          <input class="form-input" id="forms-name" type="text" name="name_control" placeholder="Pon tu nombre" data-constraints="@Required">
+                          <input class="form-input" id="forms-name" type="text" name="Nombre" placeholder="Pon tu nombre" data-constraints="@Required">
                         </div>
                       </div>
  		      <div class="col-md-6">
                         <div class="form-wrap form-wrap-validation validation-with-outside-label">
                           <label class="form-label-outside" for="forms-last-name">URL</label>
-                          <input class="form-input" id="forms-last-name" type="url" name="url_control" placeholder="Pon una URL de tu trabajo">
+                          <input class="form-input" id="forms-last-name" type="url" name="URL" placeholder="Pon una URL de tu trabajo">
                         </div>
                       </div>
  		      <div class="col-md-6">
                         <div class="form-wrap form-wrap-validation validation-with-outside-label">
                           <label class="form-label-outside" for="forms-last-name">¿Conocimiento en Python?</label>
-                          <input class="form-input" id="forms-last-name" type="number" name="number_control" min="0" max="10" value="0">
+                          <input class="form-input" id="forms-last-name" type="number" name="Con_Python" min="0" max="10" value="0">
                         </div>
                       </div>
 	              <div class="col-md-6">
                         <div class="form-wrap form-wrap-validation validation-with-outside-label">
                           <label class="form-label-outside" for="forms-last-name">¿Conocimiento en Java?</label>
-                          <input class="form-input" id="forms-last-name" type="number" name="number_control" min="0" max="10" value="0">
+                          <input class="form-input" id="forms-last-name" type="number" name="Con_Java" min="0" max="10" value="0">
                         </div>
                       </div>
 		      <div class="col-md-6">
 			 <div class="form-wrap form-wrap-validation validation-with-outside-label">
 			  <label class="form-label-outside" for="forms-last-name">Sistema Operativo</label>
 			<label class="form-label-outside" for="forms-last-name">
-			<select name="sistema_control">
+			<select name="Sistema_Operativo">
                 		<option value="windows">Windows</option>
               			<option value="linux">Linux</option>
                 		<option value="macos">Macos</option>
@@ -127,17 +127,17 @@
                       <div class="col-md-12">
                         <div class="form-wrap form-wrap-validation validation-with-outside-label">
                           <label class="form-label-outside" for="forms-message">Cuentanos tu experiencia</label>
-                          <textarea class="form-input" id="forms-message" name="comentario_control" placeholder="Escribe tu mensaje aqui" data-constraints="@Required"></textarea>
+                          <textarea class="form-input" id="forms-message" name="Experiencia" placeholder="Escribe tu mensaje aqui" data-constraints="@Required"></textarea>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-wrap form-wrap-validation validation-with-outside-label">
                           <label class="form-label-outside" for="forms-email">E-mail</label>
-                          <input class="form-input" id="forms-email" type="email" name="email_control" placeholder="Pon tu email" data-constraints="@Email @Required">
+                          <input class="form-input" id="forms-email" type="email" name="Email" placeholder="Pon tu email" data-constraints="@Email @Required">
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <button class="button button-primary button-xs round-xl button-block form-el-offset-1" type="submit">Enviar mensaje</button>
+                        <button class="button button-primary button-xs round-xl button-block form-el-offset-1" value="Submit!" type="submit">Enviar datos</button>
                       </div>
                     </div>
                   </form>
