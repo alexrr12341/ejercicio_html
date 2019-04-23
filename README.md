@@ -17,4 +17,4 @@ Capturas de pantalla donde se vea la validación de cada una de las páginas (ti
 https://asirprograms.000webhostapp.com/
 
 ##	Documento explicativo
-Estará en este propio github con un nombre de DocumentoExplicativo.odt
+Estará en este propio github con un nombre de DocumentoExplicativo.pdf
